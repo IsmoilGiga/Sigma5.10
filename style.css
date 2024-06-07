@@ -44,9 +44,9 @@ input {
 }
 
 button {
-    background-color: rgb(253, 140, 140);
+    background-color: rgb(247, 56, 56);
     border: none;
-    padding: 10px 20px;
+    padding: 11px 20px;
     border-radius: 4px;
     color: white;
     font-size: 16px;
@@ -65,4 +65,17 @@ li {
     border-radius: 4px;
     display: flex;
     align-items: center;
+}
+
+.line{
+    text-decoration: line-through;
+}
+
+.done {
+    background-color: green;
+    margin-left: 90px;
+}
+
+.del {
+    margin-left: 10px;
 }
